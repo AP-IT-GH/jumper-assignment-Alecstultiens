@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1638799556",
+        "python_version": "3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Alecs\\anaconda3\\envs\\unity_20\\Scripts\\mlagents-learn Jumper.yml --run-id=jumper011",
+        "mlagents_version": "0.27.0",
+        "mlagents_envs_version": "0.27.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.10.0",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1638799591"
+    },
+    "total": 35.1434312,
+    "count": 1,
+    "self": 0.007330100000004336,
+    "children": {
+        "run_training.setup": {
+            "total": 0.08533169999999979,
+            "count": 1,
+            "self": 0.08533169999999979
+        },
+        "TrainerController.start_learning": {
+            "total": 35.0507694,
+            "count": 1,
+            "self": 0.0003929999999954248,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 35.050359400000005,
+                    "count": 1,
+                    "self": 35.050359400000005
+                },
+                "trainer_threads": {
+                    "total": 1.1999999998124622e-06,
+                    "count": 1,
+                    "self": 1.1999999998124622e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 1.5799999999899228e-05,
+                    "count": 1,
+                    "self": 1.5799999999899228e-05
+                }
+            }
+        }
+    }
+}

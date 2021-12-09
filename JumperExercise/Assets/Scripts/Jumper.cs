@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.MLAgents;
+using Unity.MLAgents.Actuators;
 using Unity.MLAgents.Sensors;
 using UnityEngine;
 
@@ -29,8 +30,9 @@ public class Jumper : Agent
             RequestDecision();
     }
 
-    public override void OnActionReceived(float[] vectorAction)
+    public override void OnActionReceived(ActionBuffers actionBuffers)
     {
+        var vectorAction = actionBuffers.DiscreteActions;
         if (Mathf.FloorToInt(vectorAction[0]) == 1)
             Jump();
     }
@@ -40,8 +42,9 @@ public class Jumper : Agent
         Reset();
     }
 
-    public override void Heuristic(float[] actionsOut)
+    public override void Heuristic(in ActionBuffers actionBuffers)
     {
+        var actionsOut = actionBuffers.DiscreteActions;
         actionsOut[0] = 0;
         if (Input.GetKey(jumpKey))
             actionsOut[0] = 1;
