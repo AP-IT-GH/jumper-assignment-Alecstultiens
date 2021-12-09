@@ -1,6 +1,6 @@
 # Jumper Exercise (Funity)
 
-Deze game bevat een speler die over objecten springt. We hebben de speler getraind zodat hij uit zichzelf over een object springt wanneer dit object op de speler afkomt.
+Deze game bevat een speler die over objecten die op hem afkomen springt. We hebben de speler getraind zodat hij uit zichzelf over een object springt wanneer dit object op de speler afkomt, maar het is ook mogelijk om de game zelf te spelen. Hierbij 
 
 # Spelverloop
 Het is de bedoeling dat de speler zo vaak mogelijk over een object springt zonder het te raken. Hierbij gebeuren een aantal stappen:
@@ -11,9 +11,11 @@ Het is de bedoeling dat de speler zo vaak mogelijk over een object springt zonde
 
 # Observaties
 
+
 # Beloningsysteem
 Telkens dat de speler over het object springt zonder dit te raken zal da speler beloont worden met + 1, Wanneer hij toch tegen het object botst zal de beloning -0.1 zijn. Omdat de speler in het begin vaak tegen de enemy botst zal deze dus veel impact hebben op. 
 # Actieruimte
+
 
 # Ray Perception
 
