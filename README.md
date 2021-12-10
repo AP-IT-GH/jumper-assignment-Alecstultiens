@@ -29,30 +29,44 @@ In dit project maken we gebruik van een ray perception. De ray perception zal wo
 
 ## Beschrijving Code
 
-We hebben 3 scripts geschreven: Jumper, Spawner, KillOnHit en ScoreCounter
+We hebben 3 scripts geschreven: Jumper, Spawner, KillOnHit en ScoreCounter. Deze scripts vindt je in Assets > Scripts.
 
-### Jumper
+#### Jumper
 
 Dit script hebben we toegewezen aan de speler. Hierin zit ook ons beloningssysteem geïmplementeerd. De klasse waar het script in staat wordt overgeërfd van de klasse *agent*. Aan de hand van dit script kan de speler worden getraind.     
 
-### Spawner
+#### Spawner
 
 Het script voor de spawner zorgt ervoor dat op willekeurige basis er auto's worden neergezet. Hierdoor krijgt de speler telkens een nieuwe auto in zijn visier. 
 
-### KillOnHit
+#### KillOnHit
 
 Aan de hand van dit script worden de auto's die worden aangemaakt vernietigd. Een auto wordt vernietigd bij het raken van de muur die je achter de speler ziet staan. Zo blijven er geen overbodige instanties van de auto. 
 
-### ScoreCounter
+#### ScoreCounter
 
 Dit script bevat de logica om de score correct weer te geven en bij te houden.
 
 ## Componenten
 
-In dit project gebruiken we verschillende component zoals een prefab, een gameobject die we zie als *environment*. Deze *environment* bevat een ondergrond, speler, spanwer en een muur dat de auto's die de spawner genereert vernietigd. Ook gebruiken we een canvas die gebruikt maakt van een Text Mesh Pro. Dit zorgt ervoor dat het scoreboard wordt getoond in de game.
+Opnieuw schrijven
 
 ## Configuratie
 
+Stap 1: Clone project
+> git clone https://github.com/AP-IT-GH/jumper-assignment-Alecstultiens.git
 
+Stap 2: Add Project to Unity Hub 
+> Druk op de knop ADD. Vervolgens selecteer je binnen het mapje *JumperExerice*. 
+
+Stap 3: Project openen
+> Het openen van dit project doe je door een versie aan te klikken. Hierna klik je door op de naam van het project. 
+
+Stap 4: Scene openen 
+> Wanneer het project is geopend, ga je naar Assets > Scenes. Hier zie je een scene staan genaamd *SampleScene*. Die klik je open.
+
+Stap 5: Handmatig uittesten
+> Bij player zie je een component staan *Behavior Parameters*. In deze component zie je een behavior type staan. Deze zet je op 
+> *Heuristic Only*. Ten slotte klik je op play in het midden.
 
 *Alec Stultiens* & *Quinten Onya* 
