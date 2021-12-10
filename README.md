@@ -1,4 +1,4 @@
-# Jumper Exercise (Funity)
+# Jumper Exercise - Funity
 
 Aan de hand van deze tutorial zal u via meerdere stappen ons project kunnen volgen. 
 Om dit project goed te kunnen laten draaien heb je Unity, Anaconda en de nieuwste versie van ML-Agents nodig.
@@ -31,26 +31,32 @@ In dit project maken we gebruik van een ray perception. De ray perception zal wo
 
 We hebben 3 scripts geschreven: Jumper, Spawner, KillOnHit en ScoreCounter
 
-1. Jumper
+### Jumper
 
 Dit script hebben we toegewezen aan de speler. Hierin zit ook ons beloningssysteem geïmplementeerd. De klasse waar het script in staat wordt overgeërfd van de klasse *agent*. Aan de hand van dit script kan de speler worden getraind.     
 
-2. Spawner
+### Spawner
 
 Het script voor de spawner zorgt ervoor dat op willekeurige basis er auto's worden neergezet. Hierdoor krijgt de speler telkens een nieuwe auto in zijn visier. 
 
-3. KillOnHit
+### KillOnHit
 
 Aan de hand van dit script worden de auto's die worden aangemaakt vernietigd. Een auto wordt vernietigd bij het raken van de muur die je achter de speler ziet staan. Zo blijven er geen overbodige instanties van de auto. 
 
-4. ScoreCounter
+### ScoreCounter
 
 Dit script bevat de logica om de score correct weer te geven en bij te houden.
 
 ## Componenten
 
-
+De componenten dat we in dit project hebben gebruikt zijn 
+> Ray Perception
+> Text Mesh Pro
+> 
+>
+>
 
 ## Configuratie
 
 
+*Alec Stultiens* & *Quinten Onya* 
