@@ -49,14 +49,10 @@ Dit script bevat de logica om de score correct weer te geven en bij te houden.
 
 ## Componenten
 
-De componenten dat we in dit project hebben gebruikt zijn 
-> Ray Perception
-> Text Mesh Pro
-> 
->
->
+In dit project gebruiken we verschillende component zoals een prefab, een gameobject die we zie als *environment*. Deze *environment* bevat een ondergrond, speler, spanwer en een muur dat de auto's die de spawner genereert vernietigd. Ook gebruiken we een canvas die gebruikt maakt van een Text Mesh Pro. Dit zorgt ervoor dat het scoreboard wordt getoond in de game.
 
 ## Configuratie
+
 
 
 *Alec Stultiens* & *Quinten Onya* 
