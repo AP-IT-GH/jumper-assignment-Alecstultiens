@@ -23,10 +23,6 @@ De speler heeft de mogelijkheid om op de grond te staan of te springen. Er zijn 
 
 Telkens dat de speler over het object springt zonder dit te raken zal da speler beloont worden met + 1, Wanneer hij toch tegen het object botst zal de beloning -0.1 zijn. Omdat de speler in het begin vaak tegen de enemy botst zal deze dus veel impact hebben op. 
 
-## Ray Perception
-
-In dit project maken we gebruik van een ray perception. De ray perception zal worden getriggerd wanneer er objecten in ons geval auto's op de speler afkomen. Hierdoor kan de speler leren springen om de auto's te ontwijken.
-
 ## Beschrijving Code
 
 We hebben 3 scripts geschreven: Jumper, Spawner, KillOnHit en ScoreCounter. Deze scripts vindt je in Assets > Scripts.
@@ -49,7 +45,17 @@ Dit script bevat de logica om de score correct weer te geven en bij te houden.
 
 ## Componenten
 
-Opnieuw schrijven
+#### Behavior Parameters
+
+Deze component zorgt voor het gedrag van de *agent*. Hier kan je parameters invullen die invloed zullen hebben op hoe hard er wordt getraind en hoe er wordt getraind.
+
+#### Scripts
+
+De scripts zijn nodig om de game zo smooth mogelijk te laten verlopen. 
+
+#### Ray Perception Sensor 3D
+
+In dit project maken we gebruik van een ray perception. De ray perception zal worden getriggerd wanneer er objecten in ons geval auto's op de speler afkomen. Hierdoor kan de speler leren springen om de auto's te ontwijken.
 
 ## Configuratie
 
@@ -66,7 +72,7 @@ Stap 4: Scene openen
 > Wanneer het project is geopend, ga je naar Assets > Scenes. Hier zie je een scene staan genaamd *SampleScene*. Die klik je open.
 
 Stap 5: Handmatig uittesten
-> Bij player zie je een component staan *Behavior Parameters*. In deze component zie je een behavior type staan. Deze zet je op 
+> Bij player zie je een component staan *Behavior Parameters*. In deze component zie je een *behavior type* staan. Deze zet je op 
 > *Heuristic Only*. Ten slotte klik je op play in het midden.
 
 *Alec Stultiens* & *Quinten Onya* 
